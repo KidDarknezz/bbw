@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="es-es">
+<head>
+    <title>Bath &amp; Body Works PA</title>
+    <vtex:metaTags/>
+    <vtex:template id="xBathAndBodyPa-meta-tags-v1" />
+    <vtex:template id="xBathAndBodyPa-styles-v1" />
+    <link rel="stylesheet" href="/arquivos/css-js_static-pages.css?v=30052027" />
+    <vtex:contentPlaceHolder id="page-styles" />
+    <vtex.cmc:xBathAndBodyPaFallbackOne />
+</head>
+<body>
+    <vtex:template id="xBathAndBodyPa-header-v1" />
+
+    <main role="main" class="page-main--internal-page">
+        <vtex:contentPlaceHolder id="Content01" />
+        <!-- Productos slider. Begin -->
+        <div class="re-central--small products-slider__wrapper">
+            <div class="products-slider__container">
+                <div id="productsSlider01" class="product-list grid-view slider-view" data-height="parent">
+                    <vtex:contentPlaceHolder id="products-slider-01" />
+                </div>
+            </div>
+        </div>
+        <div class="re-central--small products-slider__wrapper">
+            <div class="products-slider__container">
+                <div id="productsSlider02" class="product-list grid-view slider-view" data-height="parent">
+                    <vtex:contentPlaceHolder id="products-slider-02" />
+                </div>
+            </div>
+        </div>
+        <!-- Productos slider. End -->
+        <vtex:contentPlaceHolder id="Content02" />
+    </main>
+
+    <vtex:template id="xBathAndBodyPa-footer-v1" />
+    <vtex:template id="xBathAndBodyPa-svg-sprite-v1" />
+    <vtex:template id="xBathAndBodyPa-scripts-v1" />
+    <vtex.cmc:xBathAndBodyPaPopUpHomeOne />
+    <!-- Plugins -->
+    <script src="/arquivos/plugins_slick_slick.min.js"></script>
+    <!-- Static Pages -->
+    <script src="/arquivos/css-js_static-pages.min.js?v=20200701-1516"></script>
+    <vtex:contentPlaceHolder id="page-scripts" />
+</body>
+</html>
