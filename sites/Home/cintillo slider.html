@@ -1,0 +1,42 @@
+<script>
+    $('#offerSlider div.topOffer').slick({
+         slidesToShow: 4,
+    slidesToScroll: 4,
+                 infinite: false,
+      dots:false,
+      centerMode: !1,
+    prevArrow: "<button data-role='none' class='slick-arrow slick-prev'><svg class='svg-icon-arrow-left'><use xlink:href='#svg-icon-chevron-left'></use></svg></button>",
+    nextArrow: "<button data-role='none' class='slick-arrow slick-next'><svg class='svg-icon-arrow-right'><use xlink:href='#svg-icon-chevron-right'></use></svg></button>",
+    cssEase: 'linear',
+    responsive: [
+            {
+                breakpoint: 1920,
+                settings: {
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                 infinite: false,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 360,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            }
+        ],
+        });
+    
+        </script>
