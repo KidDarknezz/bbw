@@ -1,0 +1,123 @@
+<style>
+  .slider-wrapper-bb {
+    color: #aaa;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider-bb {
+    height: 90px;
+    /*padding-left:15px;*/
+    overflow: hidden;
+  }
+  .slider-bb div {
+    color: #005699;
+    height: 62px;
+    margin-bottom: 40px;
+    padding: 30px 15px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 1.25em;
+  }
+  .slider-text1 > *,
+  .slider-text2 > *,
+  .slider-text3 > * {
+    position: relative;
+    top: 45%;
+  }
+  .slider-text1 em,
+  .slider-text2 em,
+  .slider-text3 em {
+    font-size: 1.25em;
+  }
+  .slider-text1 span,
+  .slider-text2 span,
+  .slider-text3 span {
+    font-size: 0.875em;
+  }
+
+  .slider-text1 {
+    animation: slide 15s linear infinite;
+  }
+  .slider-text2 {
+  }
+  .slider-text3 {
+    line-height: 1.1em !important;
+  }
+  @keyframes slide {
+    0% {
+      margin-top: -300px;
+    }
+    5% {
+      margin-top: -200px;
+    }
+    33% {
+      margin-top: -200px;
+    }
+    38% {
+      margin-top: -100px;
+    }
+    66% {
+      margin-top: -100px;
+    }
+    71% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .Cintillo-wrapper {
+      height: 5.5em;
+    }
+    .site-header {
+      /*top:70px !important;*/
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .Cintillo-wrapper {
+      height: 5.5em;
+    }
+    .slider-bb {
+      height: 68px;
+    }
+  }
+</style>
+<!-- Cintillo Promo. Begin -->
+<div
+  id="cintillo"
+  class="Cintillo-wrapper"
+  style="background-image: url('/arquivos/290620-gingham-pattern.svg')"
+>
+  <div class="Cintillo">
+    <div class="slider-wrapper-bb Cintillo-title">
+      <div class="slider-bb">
+        <div class="slider-text1">
+          <em class="Cintillo-titleKind" style="text-transform: none"
+            >Válido para Ciudad de Panamá, Arraiján y Chorrera</em
+          >
+          <a href="/" class="Cintillo-titleDetails"></a>
+        </div>
+        <div class="slider-text3">
+          <em class="Cintillo-titleKind" style="text-transform: none"
+            >Aplica el promo code FREEDELIVERY40</em
+          ><br />
+          <a href="" class="Cintillo-titleDetails"> </a>
+        </div>
+        <div class="slider-text2">
+          <em class="Cintillo-titleKind" style="text-transform: none"
+            >ENVÍO GRATIS compra mínima $40</em
+          ><br /><span></span><br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="cintilloHide" class="Cintillo-trigger__hide">
+    <svg class="svg-icon">
+      <use href="#svg-icon-close"></use>
+    </svg>
+  </button>
+</div>
+<!-- Cintillo Promo. End -->
