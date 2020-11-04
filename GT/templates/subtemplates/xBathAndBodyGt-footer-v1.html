@@ -1,0 +1,200 @@
+<style>
+  .payment-group {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 2rem;
+  }
+  .payment-img {
+    width: auto;
+  }
+  @media screen and (max-width: 414px) {
+    .payment-img {
+      width: 100%;
+    }
+  }
+
+  .icons-additional {
+    margin: 0 7px 20px;
+  }
+</style>
+<footer id="siteFooter" class="site-footer">
+  <div class="principal-footer__wrapper">
+    <div class="re-central--small">
+      <div class="principal-footer">
+        <div class="footer__block-container--contact">
+          <div id="siteNewsletter" class="newsletter-subscribe__wrapper">
+            <div class="newsletter-subscribe">
+              <div class="newsletter-subscribe__summary">
+                <p class="newsletter-subscribe__note">
+                  ¡Recibe nuestras ofertas y últimas noticias de Bath &amp; Body
+                  Works!
+                </p>
+              </div>
+              <form
+                id="newsletterSubscribe"
+                action=""
+                class="newsletter-subscribe__form"
+              >
+                <div class="control-wrapper">
+                  <label for="newsletterEmail">Ingresar email</label>
+                  <input
+                    type="text"
+                    id="newsletterEmail"
+                    name="newsletterEmail"
+                    placeholder=""
+                    class="newsletterEmail"
+                  />
+                </div>
+                <div class="control-wrapper">
+                  <label for="newsletterEmailConfirm">Confirmar email</label>
+                  <input
+                    type="text"
+                    id="newsletterEmailConfirm"
+                    name="newsletterEmailConfirm"
+                    placeholder=""
+                    class="newsletterEmail"
+                  />
+                </div>
+                <div class="control-wrapper control-wrapper--send">
+                  <input
+                    type="submit"
+                    value="Enviar"
+                    class="button-flat dark"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="footer__block footer__block--social">
+            <h6 class="footer__title">Síguenos</h6>
+            <ul class="footer__list--social">
+              <li>
+                <a
+                  href="https://www.facebook.com/BathandBodyWorksLatam/"
+                  class="footer__link--facebook"
+                >
+                  <svg class="svg-icon-facebook">
+                    <use href="#svg-icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/bbwguatemala/"
+                  class="footer__link--instagram"
+                >
+                  <svg class="svg-icon-instagram">
+                    <use href="#svg-icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__block-container--nav">
+          <button class="FooterAccordion-trigger">¡Te ayudamos!</button>
+          <div class="footer__block--nav FooterAccordion-content">
+            <div class="footer__block">
+              <h6 class="footer__title">Servicio al cliente</h6>
+              <ul class="footer__list">
+                <li><a href="/preguntas-frecuentes">FAQs</a></li>
+                <li><a href="/politicas-de-envios">Envíos</a></li>
+                <li><a href="/politicas-de-devoluciones">Devoluciones</a></li>
+                <li><a href="/preguntas-frecuentes">Contacto</a></li>
+                <li>
+                  <a href="/terminos-y-condiciones">Términos y Condiciones</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__block">
+              <h6 class="footer__title">Mi cuenta</h6>
+              <ul class="footer__list">
+                <li><a href="/login">Entrar / Registro</a></li>
+                <li><a href="/account/orders">Órdenes</a></li>
+                <li><a href="/account/wishlist">Lista de deseos</a></li>
+              </ul>
+            </div>
+            <div class="footer__block">
+              <h6 class="footer__title">Bath &amp; Body Works</h6>
+              <ul class="footer__list">
+                <li><a href="/nosotros">Acerca de</a></li>
+                <li>
+                  <a href="/comprar-por-fragancia">Comprar por Fragancia</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__block">
+              <h6 class="footer__title">Contacto</h6>
+              <ul class="footer__list">
+                <li><a href="/ubicacion-de-tiendas">Tiendas</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="payment-group">
+            <h6 class="footer__title">Métodos de pago:</h6>
+            <div>
+              <span class="icons-additional icon-visa"></span>
+              <span class="icons-additional icon-mastercard"></span>
+              <!-- <span class="icons-additional icon-metrobank"></span> -->
+            </div>
+            <!-- <picture>
+                              <source srcset="/arquivos/metodos_pago-111119.jpg" media="(max-width: 414px)" />
+                              <source srcset="/arquivos/metodos_pago_desktop-111119.jpg" />
+                              <img class="payment-img" src="/arquivos/metodos_pago_desktop-111119.jpg" alt="Métodos de pago" />
+                          </picture> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="post-footer">
+    <div class="re-central post-footer__content">
+      <div class="footer__legal">
+        <div class="footer__legal__links">
+          <a href="/aviso-de-privacidad">Politicas de Privacidad</a>
+          <a href="/terminos-y-condiciones">Términos y Condiciones</a>
+        </div>
+        <div class="footer__legal__info">
+          <span
+            >©<span class="year">2019</span> 2019 Bath &amp; Body Works. Todos
+            los derechos reservados.</span
+          >
+        </div>
+      </div>
+      <span class="developed-by">
+        <a href="http://vicom.mx" target="_blank">
+          <img src="/arquivos/images_layout_vicom.png?v=0" alt="VICOM" />
+        </a>
+        <a href="https://es.vtex.com/" target="_blank">
+          <img src="/arquivos/images_layout_vtex.png?v=0" alt="VTEX" />
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<!-- Go to top. Begin -->
+<div class="go-to-top">
+  <svg class="svg-icon">
+    <use href="#svg-icon-go-to-top"></use>
+  </svg>
+</div>
+<!-- Go to top. End -->
+
+<!-- Cookies. Begin -->
+<div id="cookiesMessage" class="cookies-message">
+  <p class="cookies-message__text">
+    Utilizamos cookies propias y de terceros para elaborar información
+    estadística y mostrarle publicidad a tráves del análisis de su navegación.
+    Si continúa navegando acepta su uso.
+  </p>
+  <button
+    id="cookiesMessageTrigger"
+    class="button-lineal primary cookies-message__trigger"
+  >
+    Aceptar
+  </button>
+</div>
+<!-- Cookies. End -->
+
+<vtex.cmc:xBathAndBodyGtAddToCartOne />
