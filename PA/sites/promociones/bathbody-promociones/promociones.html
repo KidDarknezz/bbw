@@ -1,117 +1,204 @@
 <style>
+  p.Promo-condition {
+    font-family: "Trade Gothic LT STD", sans-serif;
+    font-size: 1.8rem;
+    min-height: 4vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .Promo-forProducts {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
     p.Promo-condition {
-        font-family: "Trade Gothic LT STD", sans-serif;
-        white-space: pre-wrap;
-        font-size: 1.8rem;
-        min-height: 4vw;
-        justify-content: center;
-        align-items: center;
-        display: flex;
+      font-size: 1.3rem;
+      min-height: 25vw;
+      font-weight: bolder;
     }
-    .Promo-forProducts {
-        padding-top: 0.1em;
-        padding-bottom: 0.1em;
-        font-size: 1.2rem;
-        font-weight: 300;
-    }
-    @media (min-width: 320px) and (max-width: 767px) {
-        p.Promo-condition {
-            font-size: 1.3rem;
-            min-height: 25vw;
-            font-weight: bolder;
-        }
-    }
+  }
 </style>
 <div class="re-central--small">
-    <div class="Promos-wrapper">
-        <!--h1 class="tag-title">Promociones</h1-->
-        <div class="tag-underline">
-            <h1 class="tag-title">Promociones</h1>
-        </div>
-        <section class="Promos-list" data-height="parent">
-            <a href="/promociones/cuidado-corporal/compra-3-lleva-2-gratis" class="Promo" data-height="siblings">
-                <picture class="Promo-picture">
-                    <img src="/arquivos/fbc_fields-ofgold_fa1_0_ss.jpg" alt="Cuidado Corporal | Bath & Body Works">
-                </picture>
-                <div class="Promo-description">
-                    <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
-                    <h2 class="Promo-forProducts">Cuidado Corporal</h2>
-                    <!-- <h3 class="Promo-name" data-element="name">3x2</h3> -->
-                    <p class="Promo-condition">Compra 2 y lleva 1 gratis Compra 3 y lleva 2 gratis </p>
-                    <button class="button-lineal dark">Comprar</button>
-                </div>
-            </a>
-            <a href="/promociones/jabones/jabones-3x19" class="Promo" data-height="siblings">
-                <picture class="Promo-picture">
-                    <img src="/arquivos/sp_fic-v2_fa1_0_ss.jpg" alt="Jabones | Bath & Body Works">
-                </picture>
-                <div class="Promo-description">
-                    <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
-                    <h2 class="Promo-forProducts">Jabones</h2>
-                    <!-- <h3 class="Promo-name" data-element="name">3x2</h3> -->
-                    <p class="Promo-condition">3 x $19</p>
-                    <button class="button-lineal dark">Comprar</button>
-                </div>
-            </a>
-             <a href="/promociones/hogar/wallflowers-2x13-y-4x24" class="Promo" data-height="siblings">
-                <picture class="Promo-picture">
-                    <img src="/arquivos/FOG_wfh_1_ss.jpg" alt="Wallflowers | Bath & Body Works">
-                </picture>
-                <div class="Promo-description" id="candels">
-                    <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
-                    <h2 class="Promo-forProducts">Wallflowers</h2>
-                    <!-- h3 class="Promo-name" data-element="name" >2x$990</h3 -->
-                    <p class="Promo-condition">2 x $13 y 4 x $24</p>
-                    <button class="button-lineal dark">Comprar</button>
-                </div>
-            </a>
-            <a href="/promociones/hogar/velas-1-mecha-2x24" class="Promo" data-height="siblings">
-                <picture class="Promo-picture">
-                    <img src="/arquivos/cndl_luminaries_fa1_0_ss.jpg" alt="Velas | Bath & Body Works">
-                </picture>
-                <div class="Promo-description" id="candels">
-                    <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
-                    <h2 class="Promo-forProducts">Velas 1 Mecha</h2>
-                    <!-- h3 class="Promo-name" data-element="name" >2x$990</h3 -->
-                    <p class="Promo-condition">2 x $24</p>
-                    <button class="button-lineal dark">Comprar</button>
-                </div>
-            </a>
-           
-            <a href="/promociones/cuidado-corporal/compra-3-lleva-1-gratis" class="Promo" data-height="siblings">
-                <picture class="Promo-picture">
-                    <img src="/arquivos/ebc_b2g1-smalls_fa1_0_ss.jpg" alt="Minis | Bath & Body Works">
-                </picture>
-                <div class="Promo-description">
-                    <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
-                    <h2 class="Promo-forProducts">Minis</h2>
-                    <!-- <h3 class="Promo-name" data-element="name">4x$499</h3> -->
-                    <p class="Promo-condition">Compra 3 lleva 1 gratis</p>
-                    <button class="button-lineal dark">Comprar</button>
-                </div>
-            </a>
-            <a href="/gel antibacterial?O=OrderByReleaseDateDESC" class="Promo" data-height="siblings">
-                <picture class="Promo-picture">
-                    <img src="/arquivos/sn_top-offer_fa1_0_ss.jpg" alt="Gel Antibacterial | Bath & Body Works">
-                </picture>
-                <div class="Promo-description">
-                    <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
-                    <h2 class="Promo-forProducts">Gel Antibacterial</h2>
-                    <!-- <h3 class="Promo-name" data-element="name">4x$499</h3> -->
-                    <p class="Promo-condition">Pocketbac 5 x $9</p>
-                    <button class="button-lineal dark">Comprar</button>
-                </div>
-            </a>
-        </section>
-        <div class="grid-board__list">
-            <div class="grid-board__item">
-                <a href="/nuevos-productos" class="grid-board__figure">
-                    <picture>
-                        <source media="(max-width: 640px)" srcset="/arquivos/fbc_golden-sunflower_fa1_0_mhm_mobile.jpg">
-                            <img src="/arquivos/fbc_golden-sunflower_fal1_O_hm_desktop.jpg" alt="Bath & Body Works">
-                    </picture>
-                </a>
-            </div>
-        </div>
+  <div class="Promos-wrapper">
+    <!--h1 class="tag-title">Promociones</h1-->
+    <div class="tag-underline">
+      <h1 class="tag-title">Promociones</h1>
     </div>
+    <section class="Promos-list" data-height="parent">
+      <a
+        href="/promociones/cuidado-corporal/promo-cuidado-corporal"
+        class="Promo"
+        data-height="siblings"
+      >
+        <picture class="Promo-picture">
+          <img
+            src="/arquivos/Holiday_GHM_bc_d_lp_02_09.jpg"
+            alt="Cuidado Corporal | Bath & Body Works"
+          />
+        </picture>
+        <div class="Promo-description">
+          <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
+          <h2 class="Promo-forProducts">Aromaterapia</h2>
+          <!-- <h3 class="Promo-name" data-element="name">3x2</h3> -->
+          <p class="Promo-condition">$ 9.50</p>
+          <button class="button-lineal dark">Comprar</button>
+        </div>
+      </a>
+      <a
+        href="/promociones/cuidado-corporal/minis"
+        class="Promo"
+        data-height="siblings"
+      >
+        <picture class="Promo-picture">
+          <img
+            src="/arquivos/ebc_funsize.jpg"
+            alt="Minis | Bath & Body Works"
+          />
+        </picture>
+        <div class="Promo-description">
+          <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
+          <h2 class="Promo-forProducts">Minis</h2>
+          <!-- <h3 class="Promo-name" data-element="name">4x$499</h3> -->
+          <p class="Promo-condition">Compra 2 lleva 1 gratis</p>
+          <button class="button-lineal dark">Comprar</button>
+        </div>
+      </a>
+      <a
+        href="/promociones/cuidado-corporal/compra-3-lleva-2-gratis"
+        class="Promo"
+        data-height="siblings"
+      >
+        <picture class="Promo-picture">
+          <img
+            src="/arquivos/fbc_holiday-trads_xm1_0_ss.jpg"
+            alt="Cuidado Corporal | Bath & Body Works"
+          />
+        </picture>
+        <div class="Promo-description">
+          <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
+          <h2 class="Promo-forProducts">Cuidado Corporal</h2>
+          <!-- <h3 class="Promo-name" data-element="name">3x2</h3> -->
+          <p class="Promo-condition">
+            Compra 2 y lleva 1 gratis Compra 3 y lleva 2 gratis
+          </p>
+          <button class="button-lineal dark">Comprar</button>
+        </div>
+      </a>
+      <a
+        href="/promociones/jabones/jabones-3x19"
+        class="Promo"
+        data-height="siblings"
+      >
+        <picture class="Promo-picture">
+          <img
+            src="/arquivos/sp_holiday-traditions_xm1_0_ss.jpg"
+            alt="Jabones | Bath & Body Works"
+          />
+        </picture>
+        <div class="Promo-description">
+          <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
+          <h2 class="Promo-forProducts">Jabones</h2>
+          <!-- <h3 class="Promo-name" data-element="name">3x2</h3> -->
+          <p class="Promo-condition">3 x $19</p>
+          <button class="button-lineal dark">Comprar</button>
+        </div>
+      </a>
+      <a
+        href="/promociones/hogar/wallflowers-2x13-y-4x24"
+        class="Promo"
+        data-height="siblings"
+      >
+        <picture class="Promo-picture">
+          <img
+            src="/arquivos/xmas_wfh_1_ss.jpg"
+            alt="Wallflowers | Bath & Body Works"
+          />
+        </picture>
+        <div class="Promo-description" id="candels">
+          <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
+          <h2 class="Promo-forProducts">Wallflowers</h2>
+          <!-- h3 class="Promo-name" data-element="name" >2x$990</h3 -->
+          <p class="Promo-condition">2 x $13 y 4 x $24</p>
+          <button class="button-lineal dark">Comprar</button>
+        </div>
+      </a>
+      <a
+        href="/promociones/hogar/conectoresparaWallflowers"
+        class="Promo"
+        data-height="siblings"
+      >
+        <picture class="Promo-picture">
+          <img
+            src="/arquivos/diff_watercolor-butterfly_sp1_0_ss.jpg"
+            alt="Wallflowers | Bath & Body Works"
+          />
+        </picture>
+        <div class="Promo-description" id="candels">
+          <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
+          <h2 class="Promo-forProducts">Conectores</h2>
+          <!-- h3 class="Promo-name" data-element="name" >2x$990</h3 -->
+          <p class="Promo-condition">Compra 1 y lleva 1 gratis</p>
+          <button class="button-lineal dark">Comprar</button>
+        </div>
+      </a>
+      <a
+        href="/promociones/hogar/velas-1-mecha-2x24"
+        class="Promo"
+        data-height="siblings"
+      >
+        <picture class="Promo-picture">
+          <img
+            src="/arquivos/cndl_8-postcm_xm2_0_ss.jpg"
+            alt="Velas | Bath & Body Works"
+          />
+        </picture>
+        <div class="Promo-description" id="candels">
+          <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
+          <h2 class="Promo-forProducts">Velas 1 Mecha</h2>
+          <!-- h3 class="Promo-name" data-element="name" >2x$990</h3 -->
+          <p class="Promo-condition">2 x $24</p>
+          <button class="button-lineal dark">Comprar</button>
+        </div>
+      </a>
+
+      <a
+        href="/gel antibacterial?O=OrderByReleaseDateDESC"
+        class="Promo"
+        data-height="siblings"
+      >
+        <picture class="Promo-picture">
+          <img
+            src="/arquivos/sn_holiday-traditions_xm1_0_ss.jpg"
+            alt="Gel Antibacterial | Bath & Body Works"
+          />
+        </picture>
+        <div class="Promo-description">
+          <!-- <p class="Promo-validity">¡Hasta hoy!</p> -->
+          <h2 class="Promo-forProducts">Gel Antibacterial</h2>
+          <!-- <h3 class="Promo-name" data-element="name">4x$499</h3> -->
+          <p class="Promo-condition">Pocketbac 5 x $9</p>
+          <button class="button-lineal dark">Comprar</button>
+        </div>
+      </a>
+    </section>
+    <div class="grid-board__list">
+      <div class="grid-board__item">
+        <a href="/nuevos-productos" class="grid-board__figure">
+          <picture>
+            <source
+              media="(max-width: 640px)"
+              srcset="/arquivos/xcat_hol-trads_xm1_0_sb.jpg"
+            />
+            <img
+              src="/arquivos/xcat_hol-trads_xm1_0_sb.jpg"
+              alt="Bath & Body Works"
+            />
+          </picture>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>

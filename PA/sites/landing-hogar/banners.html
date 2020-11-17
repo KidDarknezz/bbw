@@ -1,105 +1,135 @@
 <style>
-    .re-central.desk {
-        max-width: 105%;
+  .re-central.desk {
+    max-width: 105%;
+  }
+  .elementOnMobile {
+    display: none !important;
+  }
+  @media screen and (max-width: 767px) {
+    .elementOnMobile {
+      display: block !important;
     }
-    .elementOnMobile{
-      display:none !important;
+    .hidden-max767 {
+      display: none;
     }
-    @media screen and (max-width: 767px) {
-      .elementOnMobile{
-          display:block !important;
-      }
-      .hidden-max767{
-          display:none;
-      }
-    }
-    h2.line-category::after{
-        border-top: 1px solid #333;
-        bottom: 0;
-        content: "";
-        left: 0;
-        margin: 0 auto;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        width: 100%;
-        z-index: 1;
-    }
-    h2.line-category span {
-        background: #fff;
-        padding: 0 15px;
-        z-index: 2;
-        position: inherit;
-        text-align: center;
-    }
-    .txt-category {
-        text-align: center;
-        font-weight: 600;
-    }
+  }
+  h2.line-category::after {
+    border-top: 1px solid #333;
+    bottom: 0;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+  }
+  h2.line-category span {
+    background: #fff;
+    padding: 0 15px;
+    z-index: 2;
+    position: inherit;
+    text-align: center;
+  }
+  .txt-category {
+    text-align: center;
+    font-weight: 600;
+  }
 </style>
 <div class="re-central desk">
-    <div class="grid-board__list">
-        <div class="grid-board__item">
-            <picture>
-               <source media="(max-width: 640px)" srcset="/arquivos/FOG_hf_m_lp_01.jpg">
-               <img src="/arquivos/FOG_hf_lp_01.jpg" alt="Bath & Body Works">
-            </picture>
-        </div>
+  <div class="grid-board__list">
+    <div class="grid-board__item">
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcset="/arquivos/BF_BOGO_early_mlb.jpg"
+        />
+        <img src="/arquivos/BF_BOGO_early_lb.jpg" alt="Bath & Body Works" />
+      </picture>
     </div>
-    <div class="re-central" style="width: 100%;">
-        <!-- <div class="grid-board__list">
+  </div>
+  <div class="re-central" style="width: 100%">
+    <!-- <div class="grid-board__list">
             <div class="grid-board__item" style="width: 100%;text-align: center;">
                   <h2 class="tag-more">más formas de comprar</h2> 
             </div>
         </div> -->
-        <div class="grid-board__list--categories">
-            <div class="grid-board__item">
-                <a href="/hogar/velas/velas-3-mechas" class="grid-board__figure">
-                    <img src="/arquivos/cndl_apple_weather_fa1_0_vn_desktop.jpg" alt="Bath & Body Works" />
-                    <span class="button-lineal dark">Velas 3 mechas</span>
-                </a>
-            </div>
-            <div class="grid-board__item">
-                <a href="/c-hogar/todos-los-wallflowers?O=OrderByReleaseDateDESC" class="grid-board__figure">
-                    <img src="/arquivos/FOG_wfh_vn_desktop.jpg" alt="Bath & Body Works" />
-                    <span class="button-lineal dark">Wallflowers</span>
-                </a>
-            </div>
-            <div class="grid-board__item">
-                <a href="/hogar/ambientadores/aerosoles-y-mist?O=OrderByReleaseDateDESC" class="grid-board__figure">
-                    <img src="/arquivos/diff_crs_fa1_0_vn.jpg" alt="Bath & Body Works" />
-                    <span class="button-lineal dark">Sprays para cuarto</span>
-                </a>
-            </div>
-            <div class="grid-board__item">
-                <a href="/hogar/ambientadores/fragancias-para-el-carro?O=OrderByReleaseDateDESC" class="grid-board__figure">
-                    <img src="/arquivos/diff_car_fa1_0_vn.jpg" alt="Bath & Body Works" />
-                    <span class="button-lineal dark">Fragancia para auto</span>
-                </a>
-            </div>
-        </div>
+    <div class="grid-board__list--categories">
+      <div class="grid-board__item">
+        <a href="/hogar/velas/velas-3-mechas" class="grid-board__figure">
+          <img
+            src="/arquivos/Holiday_hf_lp_d_02_03.jpg"
+            alt="Bath & Body Works"
+          />
+          <span class="button-lineal dark">Velas 3 mechas</span>
+        </a>
+      </div>
+      <div class="grid-board__item">
+        <a
+          href="/c-hogar/todos-los-wallflowers?O=OrderByReleaseDateDESC"
+          class="grid-board__figure"
+        >
+          <img
+            src="/arquivos/Holiday_hf_lp_d_02_05.jpg"
+            alt="Bath & Body Works"
+          />
+          <span class="button-lineal dark">Wallflowers</span>
+        </a>
+      </div>
+      <div class="grid-board__item">
+        <a
+          href="/hogar/ambientadores/aerosoles-y-mist?O=OrderByReleaseDateDESC"
+          class="grid-board__figure"
+        >
+          <img
+            src="/arquivos/Holiday_hf_lp_d_02_07.jpg"
+            alt="Bath & Body Works"
+          />
+          <span class="button-lineal dark">Sprays para cuarto</span>
+        </a>
+      </div>
+      <div class="grid-board__item">
+        <a
+          href="/hogar/ambientadores/fragancias-para-el-carro?O=OrderByReleaseDateDESC"
+          class="grid-board__figure"
+        >
+          <img
+            src="/arquivos/Holiday_hf_lp_d_02_09.jpg"
+            alt="Bath & Body Works"
+          />
+          <span class="button-lineal dark">Fragancia para auto</span>
+        </a>
+      </div>
     </div>
-    <div class="grid-board__list">
-        <div class="grid-board__item">
-            <a href="/hogar/velas/velas-3-mechas" class="grid-board__figure">
-               <picture>
-                  <source media="(max-width: 640px)" srcset="/arquivos/FOG_hf_m_lp_03.jpg">
-                  <img src="/arquivos/FOG_hf_lp_03.jpg" alt="Bath & Body Works">
-               </picture>
-            </a>
-        </div>
+  </div>
+  <div class="grid-board__list">
+    <div class="grid-board__item">
+      <a href="/hogar/velas/velas-3-mechas" class="grid-board__figure">
+        <picture>
+          <source
+            media="(max-width: 640px)"
+            srcset="/arquivos/Holiday_hf_lp_m_04.jpg"
+          />
+          <img src="/arquivos/Holiday_hf_lp_d_04.jpg" alt="Bath & Body Works" />
+        </picture>
+      </a>
     </div>
-    <div class="grid-board__list">
-        <div class="grid-board__item">
-            <a href="/c-hogar/white-barn" class="grid-board__figure">
-               <picture>
-                  <source media="(max-width: 640px)" srcset="/arquivos/FOG_hf_m_lp_04.jpg">
-                  <img src="/arquivos/FOG_hf_lp_04.jpg" alt="Bath & Body Works">
-               </picture>
-            </a>
-        </div>
+  </div>
+  <div class="grid-board__list">
+    <div class="grid-board__item">
+      <a href="/c-hogar/white-barn" class="grid-board__figure">
+        <picture>
+          <source
+            media="(max-width: 640px)"
+            srcset="/arquivos/Holiday_hf_lp_m_05.jpg"
+          />
+          <img src="/arquivos/Holiday_hf_lp_d_05.jpg" alt="Bath & Body Works" />
+        </picture>
+      </a>
     </div>
-    <!-- <div class="landing-triplets-board">
+  </div>
+  <!-- <div class="landing-triplets-board">
         <div class="grid-board__list" >
             <div class="grid-board__item">
                 <a href="/c-hogar/todos-los-wallflowers?O=OrderByReleaseDateDESC" class="grid-board__figure">

@@ -1,59 +1,194 @@
 <style>
-    .re-central.desk {
-        max-width: 105%;
-    }
-    .elementOnMobile{
-      display:none !important;
+  .re-central.desk {
+    max-width: 105%;
+  }
+  .elementOnMobile {
+    display: none !important;
   }
 
-    @media screen and (max-width: 767px) {
-      .elementOnMobile{
-          display:block !important;
-      }
-      .hidden-max767{
-          display:none;
-      }
+  @media screen and (max-width: 767px) {
+    .elementOnMobile {
+      display: block !important;
     }
+    .hidden-max767 {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .hide-on-desktop {
+      display: none;
+    }
+  }
 </style>
 <div class="re-central desk">
-    <a href="/regalos/para-ella" class="grid-board__list">
-        <div class="grid-board__item">
-            <picture>
-               <source media="(max-width: 640px)" srcset="/arquivos/FOG_gifts_m_lp_01.jpg">
-               <img src="/arquivos/FOG_gifts_d_lp_01.jpg" alt="Bath & Body Works">
-            </picture>
-        </div>
-    </a>
-    <div class="landing-triplets-board">
-        <div class="grid-board__list" >
-            <div class="grid-board__item" style="padding: 0;">
-                <a href="/regalos/para-ella" class="grid-board__figure">
-                    <picture>
-                    <source media="(max-width: 640px)" srcset="/arquivos/FOG_gifts_m_lp_02.jpg">
-                    <img src="/arquivos/FOG_gifts_d_lp_03.jpg" alt="Bath & Body Works">
-                </picture>
-                </a>
-            </div>
-        </div>
-        <div class="grid-board__list" >
-            <div class="grid-board__item" style="padding: 0;">
-                <a href="/regalos/para-el" class="grid-board__figure">
-                    <picture>
-                    <source media="(max-width: 640px)" srcset="/arquivos/FOG_gifts_m_lp_03.jpg">
-                    <img src="/arquivos/FOG_gifts_d_lp_04.jpg" alt="Bath & Body Works">
-                </picture>
-                </a>
-            </div>
-        </div>
-        <div class="grid-board__list" >
-            <div class="grid-board__item" style="padding: 0;">
-                <a href="/regalos/aromaterapia" class="grid-board__figure">
-                    <picture>
-                    <source media="(max-width: 640px)" srcset="/arquivos/FOG_gifts_m_lp_04.jpg">
-                    <img src="/arquivos/FOG_gifts_d_lp_05.jpg" alt="Bath & Body Works">
-                </picture>
-                </a>
-            </div>
-        </div>
+  <div class="grid-board__list">
+    <div class="grid-board__item" style="margin-bottom: 0">
+      <picture>
+        <source
+          srcset="/arquivos/Holiday_gifts_v2_d_lm_01.jpg"
+          media="(max-width: 640px)"
+        />
+        <img
+          src="/arquivos/Holiday_gifts_v2_d_lm_01.jpg"
+          alt="Bath &amp; Body Works"
+        />
+      </picture>
+
+      <div class="hidden-max767">
+        <a
+          href="/regalos/para-ella"
+          style="
+            width: 23%;
+            position: absolute;
+            height: 18%;
+            bottom: 2%;
+            left: 10%;
+          "
+        ></a>
+        <a
+          href="/regalos/para-el"
+          style="
+            width: 23%;
+            position: absolute;
+            height: 18%;
+            bottom: 2%;
+            left: 40%;
+          "
+        ></a>
+        <a
+          href="/regalos/aromaterapia"
+          style="
+            width: 23%;
+            position: absolute;
+            height: 18%;
+            bottom: 2%;
+            right: 8%;
+          "
+        ></a>
+      </div>
+      <div class="elementOnMobile">
+        <a
+          href="/regalos/para-ella"
+          style="
+            width: 45%;
+            position: absolute;
+            height: 14%;
+            bottom: 30%;
+            left: 28%;
+          "
+        ></a>
+        <a
+          href="/regalos/para-el"
+          style="
+            width: 45%;
+            position: absolute;
+            height: 13%;
+            bottom: 15%;
+            left: 28%;
+          "
+        ></a>
+        <a
+          href="/regalos/aromaterapia"
+          style="
+            width: 45%;
+            position: absolute;
+            height: 12%;
+            bottom: 2%;
+            left: 28%;
+          "
+        ></a>
+      </div>
     </div>
+  </div>
+  <a href="/regalos/para-ella" class="grid-board__list" style="margin-top: 0">
+    <div class="grid-board__item" style="margin-bottom: 0">
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcset="/arquivos/Holiday_gifts_v2_m_lp_07.jpg"
+        />
+        <img
+          src="/arquivos/Holiday_gifts_v2_d_lm_02.jpg"
+          alt="Bath & Body Works"
+        />
+      </picture>
+    </div>
+  </a>
+  <a href="/holiday" class="grid-board__list" style="margin-top: 0">
+    <div class="grid-board__item">
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcset="/arquivos/Holiday_gifts_v2_m_lp_08.jpg"
+        />
+        <img
+          src="/arquivos/Holiday_gifts_v2_d_lm_03.jpg"
+          alt="Bath & Body Works"
+        />
+      </picture>
+    </div>
+  </a>
+  <img src="/arquivos/Holiday_gifts_v2_m_lp_09.jpg" class="hide-on-desktop" />
+  <!-- <a href="/regalos/para-ella" class="grid-board__list">
+    <div class="grid-board__item">
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcset="/arquivos/FOG_gifts_m_lp_01.jpg"
+        />
+        <img src="/arquivos/FOG_gifts_d_lp_01.jpg" alt="Bath & Body Works" />
+      </picture>
+    </div>
+  </a> -->
+  <!-- <div class="landing-triplets-board">
+    <div class="grid-board__list">
+      <div class="grid-board__item" style="padding: 0">
+        <a href="/regalos/para-ella" class="grid-board__figure">
+          <picture>
+            <source
+              media="(max-width: 640px)"
+              srcset="/arquivos/FOG_gifts_m_lp_02.jpg"
+            />
+            <img
+              src="/arquivos/FOG_gifts_d_lp_03.jpg"
+              alt="Bath & Body Works"
+            />
+          </picture>
+        </a>
+      </div>
+    </div>
+    <div class="grid-board__list">
+      <div class="grid-board__item" style="padding: 0">
+        <a href="/regalos/para-el" class="grid-board__figure">
+          <picture>
+            <source
+              media="(max-width: 640px)"
+              srcset="/arquivos/FOG_gifts_m_lp_03.jpg"
+            />
+            <img
+              src="/arquivos/FOG_gifts_d_lp_04.jpg"
+              alt="Bath & Body Works"
+            />
+          </picture>
+        </a>
+      </div>
+    </div>
+    <div class="grid-board__list">
+      <div class="grid-board__item" style="padding: 0">
+        <a href="/regalos/aromaterapia" class="grid-board__figure">
+          <picture>
+            <source
+              media="(max-width: 640px)"
+              srcset="/arquivos/FOG_gifts_m_lp_04.jpg"
+            />
+            <img
+              src="/arquivos/FOG_gifts_d_lp_05.jpg"
+              alt="Bath & Body Works"
+            />
+          </picture>
+        </a>
+      </div>
+    </div>
+  </div> -->
 </div>
